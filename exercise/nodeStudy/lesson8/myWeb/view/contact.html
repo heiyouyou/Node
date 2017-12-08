@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>contact us</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+
+username:<input type="text" name="username" id="username"><br/>
+password:<input type="text" name="username" id="password"><br/>
+<div id="sexBox">
+	sex:<input type="radio" name="sex">男<input type="radio" name="sex">女<input type="radio" name="sex">保密
+</div>
+comment:<textarea id="comment"></textarea>
+<a href="javascript:void(0)" id="btn" onclick="wells.submit(this)">submit</a>
+</body>
+
+<script type="text/javascript">
+
+	var wells = {
+		submit : function(obj){
+			var username = $("#username").val();
+			var password = $("#password").val();
+			var sex = $("#sexBox input:checked").index();
+			var comment = $("#comment").val();
+			if(username == "" || password=="" || sex === "" ||comment==""){
+				return false;
+			};
+			var data = {
+				"username" : username,
+				"password" : password,
+				"sex" : sex,
+				"comment" : comment
+			};
+			// console.log(data);
+			$.ajax({
+				"type" : "POST",
+				"url" : "/userController.do",
+				"data" : data,
+				"success" : function(data){
+					if(data == "success"){
+						console.log("数据保存成功....");
+					}
+				}
+			});
+		}
+	};
+</script>
+</html>

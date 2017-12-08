@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+		}
+	</style>
+</head>
+<body>
+<h1>Hello word,following is our static file handler</h1>
+<img src="img/index.png">
+<a href="contact.html" id="btn" onClick="wells.submit(this)">联系我们</a>
+
+
+<script type="text/javascript">
+	var wells = {
+		submit:function(obj){
+			$.ajax({
+				url:"/data.json",
+				type:"post",
+				data:{username:"黑黝黝",age:22},
+				// dataType:"json",
+				success:function(data){
+					data = JSON.parse(data);//将字符串的json格式转成真正的json对象
+					var $div = $("<div style='color:red;font-weight:bold;font-size:14px;'></div>");
+					console.log(data);
+					console.log(data.username);
+					console.log(data.age);
+					$div.append("<p>"+data.username+"</p><p>"+data.age+"</p>");
+					$(document.body).append($div);
+				}
+			});
+			console.log("结束了.....");
+		}
+	}
+</script>
+</body>
+</html>

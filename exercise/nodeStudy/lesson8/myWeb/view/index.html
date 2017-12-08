@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/react.js"></script>
+	<script type="text/javascript" src="js/react-dom.js"></script>
+	<script type="text/javascript" src="js/browser.js"></script>
+	<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+		}
+	</style>
+</head>
+<body>
+<div id="redirect">
+	
+</div>
+<script type="text/babel">
+	var Redirect = React.createClass({
+		// getInitialState : function(){
+
+		// },
+		// change: function(){
+		// 	this.setState({sex:1});
+		// }
+		alertMessage:function(){
+			alert("你好呀.....");
+		},
+		showMessage:function(){
+			$.ajax({
+				url:"/userCommentController.do",
+				type:"POST",
+				success:function(data){
+					data = eval("("+data+")");
+					console.log(data);
+					var $ul = $("<ul></ul>");
+					var sex = "";
+					data.map(x =>{
+						if(x.sex == 0){
+							sex = "男";
+						}else if(x.sex == 1){
+							sex = "女";
+						}else{
+							sex = "保密";
+						};
+						$ul.append("<li style='color:red;'>"+x.username+"&nbsp;"+x.password+"&nbsp;"+sex+"&nbsp;"+x.comment+"</li>");
+					});
+					$ul.appendTo(document.body);
+				}
+			});
+		},
+		render:function(){
+			return (
+				<div>
+					<h1>Hello word,following is our static file handler</h1>
+					<img src="img/index.png" />
+					<a href="/contact" id={this.props.id}  onClick={this.alertMessage}>联系我们</a>
+					<a href="javascript:void(0);" id={this.props.show} onClick={this.showMessage}>show</a>
+				</div>
+				)
+		}
+	});
+	ReactDOM.render(
+		<Redirect id="btn" show="show"/>,
+		document.getElementById("redirect")
+	);
+
+
+</script>
+<script type="text/javascript">
+	// var wells = {
+	// 	submit:function(obj){
+	// 		$.ajax({
+	// 			url:"/userController.do",
+	// 			type:"post",
+	// 			data:{username:"黑黝黝",age:22},
+	// 			// dataType:"json",
+	// 			success:function(data){
+	// 				data = JSON.parse(data);//将字符串的json格式转成真正的json对象
+	// 				var $div = $("<div style='color:red;font-weight:bold;font-size:14px;'></div>");
+	// 				console.log(data);
+	// 				console.log(data.username);
+	// 				console.log(data.age);
+	// 				$div.append("<p>"+data.username+"</p><p>"+data.age+"</p>");
+	// 				$(document.body).append($div);
+	// 			}
+	// 		});
+	// 		console.log("结束了.....");
+	// 	}
+	// }
+</script>
+</body>
+</html>
