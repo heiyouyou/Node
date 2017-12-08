@@ -1,0 +1,50 @@
+//req.body()返回一个json对象，用来处理post请求的参数，不能处理get请求参数
+//console.log(req.body);
+
+/*
+ * req属于node http.incomingMessage的实例
+    express只不过在node http.incomingMessage添加一些了功能，它拥有原生的req的所有的API方法和属性
+    express中的req除了req.headers和req.url是来自nodejs原生的req，其他的都是通过express派生出来的.
+ *
+ * */
+console.log("用户名："+req.body.username);
+console.log("密码："+req.body.password);
+console.log("获取请求头headers："+JSON.stringify(req.headers));
+console.log("获取请求头connection："+JSON.stringify(req.headers.connection));
+console.log("获取请求头accept-encoding："+JSON.stringify(req.headers["accept-encoding"]));
+console.log("获取请求头cookies："+JSON.stringify(req.headers["cookies"]));
+console.log("获取当前的cookies："+JSON.stringify(req.cookies));
+//req.accepts()请求头接受的类型，接受符合的类型则返回接受的类型，否则返回false
+console.log("获取接收的类型："+req.accepts("appddd"));//false
+console.log("获取接收的类型："+req.accepts("text/html"));
+console.log("获取IP地址："+req.ip);
+console.log("获取请求的路径（是不包含：协议，主机，端口和查询字符串）："+req.path);
+console.log("获取主机名："+req.host);
+console.log("判断是否是异步(ajax)请求："+req.xhr);
+console.log("获取请求协议："+req.protocol);
+console.log("获取请求地址URL："+req.url);
+console.log("获取请求地址 originalUrl："+req.originalUrl);
+console.log("获取客户端的语言："+req.acceptsLanguage);
+
+
+
+//关于 res里面常用方法
+//文本  对象， (图片，音频 下载)
+//res.status(code) 默认不写，就是200
+//设置响应出状态：res.status(200);
+//设置响应内容的类型：res.set("Content-type","text/html");//默认不写就是text/html
+//设置日期 res.set("Date","ddddd")
+//专门为Content-type提供:res.type("text/html")
+//重定向：res.redirect(相对访问地址的页面路径);res.redirect("https://www.mengkedu.com");
+//cookie设置：res.cookie(name,value,[options])
+//清除cookie:res.clearCookie(name,[options]);
+
+//返回数据的方式：就是对于nodejs原生态的res.end()的封装
+//res.send 发送送文本，json都可以发送。但是个人建议：如果发送json的话都使用res.json()
+//res.json({key:value,key1:value1.....});
+//res.attachment([filename],) res.download(path,[filename],callback);提供服务器文件下载
+//res.sendFile(path,[option],[callback]);图片和文件发送
+//res.locals:设置给应用程序级别的作用域,几乎用的很少。如果你的数据几乎不修改的时候可以考虑用它
+//res.render("view relative path",报文数据{key:value,key1:value1.....});
+//报文数据其实就是设置给页面渲染的模板数据，就是一个作用域=req级别的数据
+//作用域三个级别大小：locals > session(cookie)>req

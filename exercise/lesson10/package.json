@@ -1,0 +1,22 @@
+{
+  "name": "lesson10",
+  "version": "1.0.0",
+  "description": "This is a Websocket app...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "wzy",
+  "license": "ISC",
+  "devDependencies": {
+    "node-uuid": "^1.4.7",
+    "ws": "^2.2.0"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.7"
+  }
+}

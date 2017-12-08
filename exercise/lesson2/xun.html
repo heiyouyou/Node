@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>迅雷-领先的众筹云计算服务商</title>
+<script type="text/javascript">
+  function getQueryString(name) { 
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+    var r = window.location.search.substr(1).match(reg); 
+    if (r !=null) return unescape(r[2]); return ''; 
+ } 
+  var browser = {
+    versions: function() {
+    var u = navigator.userAgent, app = navigator.appVersion;
+    return {//移动终端浏览器版本信息
+    trident: u.indexOf('Trident') > -1, //IE内核
+    presto: u.indexOf('Presto') > -1, //opera内核
+    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+    mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+    android: u.indexOf('Android') > -1 || u.indexOf('Adr') > -1, //android终端或者uc浏览器
+    iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+    iPad: u.indexOf('iPad') > -1, //是否iPad
+    webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+    };
+    }(),
+    language: (navigator.browserLanguage || navigator.language).toLowerCase()
+    }
+    if(getQueryString('nojump') == 1){
+
+    }else{
+      if (browser.versions.android || browser.versions.ios) {
+        if(!browser.versions.iPad){
+        window.location.href = 'http://www.xunlei.com/wap/';
+        }
+
+    }
+  }
+  
+</script>
+<meta name="360_union_verify" content="8b70efc2783bd6b0a7e53e1fdde712b0">
+<meta name="baidu-site-verification" content="jJ1n49i3dy" />
+<meta name="keywords" content="深圳市迅雷网络技术有限公司、迅雷、迅雷网络、迅雷技术、下载、网速、加速、会员、云加速、云计算、CDN">
+<meta name="description" content="迅雷是中国拥有核心技术的互联网众筹云计算服务商，也是领先的互联网下载服务提供商和付费会员产品提供商。公司成立于2003年，通过云加速技术和系列产品为用户提供基于大容量娱乐数据传输的云计算服务，帮助用户在多终端上快速获得数字内容，从而推进大互联网时代的数据传输加速，让互联网信息传输像水、电一样方便、自由和接近免费。">
+<link rel="stylesheet" href="css/nheader.css?v=1">
+<link rel="stylesheet" href="css/nstyle.css?v=3">
+
+</head>
+<body>
+<div class="header">
+  <h1 class="logo png"><a href="http://www.xunlei.com/" title="迅雷网络"><img src="img/n_logo.png" class="png" alt="迅雷网络"></a></h1>
+  <ul class="nav_list">
+    <li class="nav_li">
+      <a href="http://dl.xunlei.com/?from=index" class="btn_nav" clickid="gwcpzx"><i class="ic_product png" target="_blank"></i>产品</a>
+    </li>
+    <li class="nav_li">
+        <a href="http://www.xunlei.com/newscenter.html" class="btn_nav" clickid="gwxwzx"><i class="ic_new png"></i>新闻</a>
+      </li>
+    <li class="nav_li">
+      <a href="javascript:;" class="btn_nav" id="nav_more"><i class="ic_more png"></i>更多</a>
+      <div class="more_nav" id="more_nav">
+        <!--[if lt IE 9]>
+        <span class="opc_bg"></span>
+        <![endif]-->
+        <i class="ic_bdot png" id="h_bdot"></i>
+        <ul id="h_nav">
+          <li>
+            <a href="http://www.xycdn.com/" clickid="gwgd1" target="_blank" class="btn_snav">星域CDN</a>
+          </li>
+          <!-- <li>
+            <a href="http://red.xunlei.com/" target="_blank" class="btn_snav">赚钱宝</a>
+          </li> -->
+         <!--  <li>
+            <a href="http://www.xunlei.com/news.html" target="_blank" class="btn_snav">新闻动态</a>
+          </li> -->
+          <li>
+            <a href="http://hr.xunlei.com/"  clickid="gwgd3" class="btn_snav" target="_blank">人力资源</a>
+          </li>
+          <li>
+            <a href="http://ir.xunlei.com/"  clickid="gwgd4" target="_blank" class="btn_snav">投资关系</a>
+          </li>
+          <li>
+            <a href="http://www.xunlei.com/introduction.html"  clickid="gwgd5" target="_blank" class="btn_snav">关于迅雷</a>
+          </li>
+          <li>
+            <a href="http://www.xunlei.com/connection.html"  clickid="gwgd6" target="_blank" class="btn_snav">联系我们</a>
+          </li>
+
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="wrap" id="wrap">
+	<div class="wrapper">
+    <div class="product_list" id="product_list">
+      <!-- 迅雷
+      <div class="product_box xnet9 show">
+        <div class="bg_box">
+          <img src="img/bg_xnet9.jpg">
+        </div>
+          
+        <canvas id="canvas"></canvas>
+        <div class="content">
+          <span class="page_bg"></span>
+          <div class="main_box">
+            <h2 class="hide_txt png">
+              精彩，一下就有
+            </h2>
+            <a  clickid="gwlb1-1" href="http://xl9.xunlei.com/" target="_blank" class="btn_product" title="迅雷">迅雷</a>
+          </div>
+        </div>
+      </div>-->
+       <!-- 迅雷 -->
+      <div class="product_box xnet show">
+        <div class="bg_box">
+          <img src="img/bg_xnet.jpg">
+          <canvas id="fireworks" width="1296" height="729" style="margin-top: -364.5px; margin-left: -648px;"></canvas>
+        </div>
+        <div class="content">
+          <div class="main_box">
+            <h2 class="hide_txt png">
+              精彩，一下就有
+            </h2>
+            <a clickid="gwlb1-1" href="http://xl9.xunlei.com/" target="_blank" class="btn_product btn_left" title="PC迅雷">PC迅雷</a>
+            <a clickid="gwlb2-1" href="http://mobile.xunlei.com/"   target="_blank" class="btn_product btn_right" title="移动迅雷">移动迅雷</a>
+          </div>
+        </div>
+      </div>
+      <!-- 手雷
+      <div class="product_box shoulei">
+        <div class="bg_box">
+          <img src="img/bg_shoulei.jpg">
+        </div>
+        <div class="content">
+          <div class="main_box">
+            <h2 class="hide_txt  png">
+              <span class="txt_1 png">炽</span>
+              <span class="txt_2 png">热</span>
+              <span class="txt_3 png">追</span>
+              <span class="txt_4 png">片</span>
+              <span class="txt_5 png">之</span>
+              <span class="txt_6 png">心</span>
+              <span class="txt_7 png">没</span>
+              <span class="txt_8 png">有</span>
+              <span class="txt_9 png">wifi</span>
+              <span class="txt_10 png">也</span>
+              <span class="txt_11 png">挡</span>
+              <span class="txt_12 png">不</span>
+              <span class="txt_13 png">住</span>
+            </h2>
+            <a clickid="gwlb2-1" href="http://mobile.xunlei.com/" target="_blank"  class="btn_product" title="手机迅雷">手机迅雷</a>
+          </div>
+        </div>
+      </div>-->
+     <!--  <div class="product_box xnet">
+         <div class="bg_box">
+          <img src="img/bg_xnet.jpg">
+        </div>
+        <div class="content">
+          <div class="main_box">
+            <h2 class="hide_txt  png">
+              <span class="txt_1 png">极</span>
+              <span class="txt_2 png">速</span>
+              <span class="txt_3 png">不</span>
+              <span class="txt_4 png">止</span>
+              <span class="txt_5 png">一</span>
+              <span class="txt_6 png">次</span>
+              <span class="txt_7 png">的</span>
+              <span class="txt_8 png">挑</span>
+              <span class="txt_9 png">战</span>
+            </h2>
+            <a clickid="gwlb3-1" href="http://dl.xunlei.com/xl7.9/intro.html" target="_blank" class="btn_product" title="迅雷7.9">迅雷7.9</a>
+          </div>
+        </div>
+      </div> -->
+      <div class="product_box member">
+        <div class="bg_box">
+          <img src="img/bg_member.jpg">
+        </div>
+        <div class="content">
+          <div class="main_box">
+            <h2 class="hide_txt  png">
+             只为打造品质生活
+            <!--
+              <span class="txt_1 png">快</span>
+              <span class="txt_2 png">让</span>
+              <span class="txt_3 png">生</span>
+              <span class="txt_4 png">活</span>
+              <span class="txt_5 png">慢</span>
+              <span class="txt_6 png">下</span>
+              <span class="txt_7 png">来</span>-->
+            </h2>
+            <a clickid="gwlb4-1" href="http://vip.xunlei.com/" target="_blank" class="btn_product" title="迅雷会员">迅雷会员</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product_box xav">
+        <div class="bg_box">
+          <img src="img/bg_xav.jpg">
+        </div>
+        <div class="content">
+          <div class="main_box">
+            <h2 class="hide_txt png">
+            震撼视界，为你而FUN
+            <!--
+              <span class="txt_1 png">流</span>
+              <span class="txt_2 png">畅</span>
+              <span class="txt_3 png">画</span>
+              <span class="txt_4 png">质</span>
+              <span class="txt_5 png">乐</span>
+              <span class="txt_6 png">无</span>
+              <span class="txt_7 png">止</span>
+              <span class="txt_8 png">境</span>-->
+            </h2>
+            <a clickid="gwlb5-1" href="http://video.xunlei.com/pc.html" target="_blank" class="btn_product" title="迅雷影音">迅雷影音</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--底部浮出来 -->
+    <div class="product_btns" id="product_btns">
+      <div class="content">
+        <div class="btns_area">
+          <div class="btns_box" id="control_box">
+            <a clickid="gwlb1-2"  class="btn_xnet9 cur cur" title="点击下载"><span class="ic_xnet9 hide_txt png">点击下载</span></a>
+            <!--
+            <a clickid="gwlb2-2" href="http://mobile.xunlei.com/" target="_blank" class="btn_ipr btn_shoulei" title="手机迅雷" ><span class="ic_shoulei hide_txt png">手机迅雷</span></a>-->
+          <!--   <a clickid="gwlb3-2" href="http://dl.xunlei.com/xl7.9/intro.html" target="_blank" class="btn_xnet" title="迅雷7.9"><span class="ic_xnet hide_txt png">迅雷7.9</span></a> -->
+            <a clickid="gwlb4-2" href="http://vip.xunlei.com/" target="_blank" class="btn_member" title="进入官网"><span class="ic_member hide_txt png">进入官网</span></a>
+             <!-- <a href="http://k.xunlei.com/" target="_blank" class="btn_xkn" title="迅雷快鸟"><span class="ic_xkn hide_txt png">迅雷快鸟</span></a> -->
+            <a clickid="gwlb5-2"  class="btn_xav" title="点击下载"><span class="ic_xav hide_txt png">点击下载</span></a>
+            <span class="ic_line" id="ic_line"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--浮层二维码开始 -->
+
+    <div class="download_wp xnet_download" id="xnet_download">
+      <i class="opc_bg"></i>
+      <div class="content">
+        <i class="ic_arr"></i>
+        <div class="download_box">
+          <a href='http://down.sandai.net/mac/thunder_dl3.0.2.2636_Beta.dmg' target='_blank' class='btn_download' >
+                            <span class='ic_download ic_mac'></span>
+                            Mac下载
+                          </a>
+                          <a href='http://down.sandai.net/thunder9/Thunder9.1.24.580.exe' target='_blank' class='btn_download' >
+                            <span class='ic_download ic_win'></span>
+                            Win下载
+                        </a>
+           <a class='btn_download' >
+                                <span class='ic_download ic_android'></span>
+                                Android下载
+                                <img src='http://img.vip.xunlei.com/img/banner/201511201257341349.png' class='img_code'>
+                              </a>
+                              <a class='btn_download' >
+                                <span class='ic_download ic_ios'></span>
+                                iPhone下载
+                                <img src='http://img.vip.kanimg.com/img/banner/201610191035121708.png' class='img_code'>
+                              </a>
+                              <a class='btn_download' >
+                                <span class='ic_download ic_ipad'></span>
+                                iPad下载
+                                <img src='http://img.vip.kanimg.com/img/banner/201610191036048853.png' class='img_code'>
+                              </a>
+        </div>
+      </div>
+    </div>
+    <div class="download_wp xav_download" id="xav_download">
+      <i class="opc_bg"></i>
+      <div class="content">
+        <i class="ic_arr"></i>
+        <div class="download_box">
+          <a href='http://xmp.down.sandai.net/xmp/XMPSetup_5.2.12.5572-dl.exe' class='btn_download' >
+                        <span class='ic_download ic_win'></span>
+                        Win下载
+                      </a>
+        </div>
+      </div>
+    </div>
+    <!-- 浮层二维码结束-->
+    <div class="rpt_bg png" id="rpt_bg"></div>
+  </div>
+</div>
+<div class="footer f_color2" id="footer">
+ <!--[if lt IE 9]>
+  <span class="opc_bg"></span>
+  <![endif]--> 
+  <div class="foot">
+    <p class="links">
+      <a href="http://www.xunlei.com/images/zzdx.jpg" target="_blank">增值电信业务粤B2-20050219号</a>
+      <span>|</span>
+      <a target="_blank" href="http://www.xunlei.com/images/wlwh.jpg">粤网文[2016]0901-125号</a>
+      <!--<span>|</span>
+      <a target="_blank" href="http://www.xunlei.com/images/gb.jpg">广电节目经营(粤)字第786号-20050219号</a>-->
+      <span>|</span>
+      <a target="_blank" href="http://www.xunlei.com/images/cbxkz.jpg">互联网出版(粤)字053号</a>
+      <span>|</span>
+      <a target="_blank" href="http://www.xunlei.com/images/ypfw.jpg">互联网药品证书</a>
+    </p>
+<!--     <p>违法信息举报热线电话:0755-86319951    Copyright © 2003-2016 XUNLEI.COM All Rights Reserved</p> -->
+<p>迅雷会员专属客服热线:400-1111-000 违法信息举报电话:0755-86319951 举报邮箱xljubao@xunlei.com  Copyright © 2003-2016 XUNLEI.COM All Rights Reserved</p>
+    <div class="safe_links">
+      <a href="http://www.szga.gov.cn/" target="_blank"><img src="images/safe_1.png">深圳网络警察报警平台</a>
+      <a href="http://www.szga.gov.cn/SZGA_Scene/641/1514/#currState=2" target="_blank"><img src="images/safe_2.png">公共信息安全网络监察</a>
+      <a href="https://www.szcredit.org.cn/web/gspt/newGSPTDetail.aspx?ID=6a5928370dfc49fc9d81e4088f6e614f&tabPro=11&code=1" target="_blank"><img src="images/safe_3.png">经营性网站备案信息</a>
+      <a href="http://www.12377.cn" target="_blank"><img src="images/safe_4.png">不良信息举报中心</a>
+    </div>
+  </div>
+</div>
+<div style="display:none">
+  <script type="text/javascript" src="http://vip.xunlei.com/js/anal_vip_homepage.js"></script>
+  <script type="text/javascript" src="http://act.vip.xunlei.com/common/pv/pv_min.js"></script>
+</div>
+<script src="js/jquery.js?v=1"></script>
+<!--<script src="js/effect.js?v=1"></script>-->
+<script src="js/index.js?v=1"></script>
+<!--
+<script>
+  (function(){
+    var $wrap=$("#wrap"),
+        $pages=$("#product_list").find(".product_box"),
+        $controlBox=$("#control_box"),
+        $productBtns=$("#product_btns"),
+        $controls=$controlBox.find("a"),
+        $icLine=$("#ic_line"),
+        $listTops=$("#list_top").find("li"),
+        $hNav=$("#h_nav"),
+        $hNavli=$hNav.find("li"),
+        $hSubnav=$("#h_subnav"),
+        $hSubDD=$hSubnav.find("dd"),
+        $hBdot=$("#h_bdot"),
+        $hSdot=$("#h_sdot"),
+        $footer=$("#footer"),
+        $bgs=$pages.find(".bg_box img"),
+        $mainBoxs=$pages.find(".main_box"),
+        $moreNav=$("#more_nav"),
+        $rptBg=$("#rpt_bg");
+    var data={
+        pLength:$pages.length,
+        curP:-1,
+        isCan:true,
+        isOnbtn:false,
+        fColor:[2,2,1,1,1],
+        dur: 5000,
+        cNum:0
+    };
+    var aDD=$controls.eq(0).width()+parseInt($controls.eq(0).css("margin-right").slice(0,-2))*2;
+    var cId;
+    var isCss3=function(){
+      var style=document.createElement("div").style;
+        for(var k in style){
+          if(k.toLowerCase().indexOf("animation")>=0){
+            return true;
+          }
+         }
+         return false;
+    }();
+    var isIE6=navigator.userAgent.indexOf("MSIE 6.0") > 0;
+
+    //画布
+    if(isCss3){
+      cvsEffect.start();
+      cvsEffect.one();
+    }
+    //页面自缩放
+    var resize=function(){
+      var w=$(window).width(),
+          h=$(window).height();
+      $wrap.height(h);
+      $moreNav.height(h);
+      if(w/h<1920/1080){
+        $bgs.height(h).css({width:"auto",margin:-.5*h+"px 0 0 "+-.5*1920/1080*h+"px"});
+      }else{
+        $bgs.width(w).css({height:"auto",margin:-.5*w*1080/1920+"px 0 0 "+-.5*w+"px"});
+      }
+      var imgH=$bgs.height();
+      $mainBoxs.height(imgH).css("margin-top",-.5*imgH+"px");
+      var cls;
+      if(isCss3){
+        document.getElementById("wrap").className="wrap big_view xbig css3";
+        switch(true){
+          case w>=1920:{cls="";break;}
+          case w<1920&&w>=1680:{cls="small9";break;}
+          case w<1680&&w>=1600:{cls="small8";break;}
+          case w<1600&&w>=1536:{cls="small7";break;}
+          case w<1536&&w>=1440:{cls="small6";break;}
+          case w<1440&&w>=1366:{cls="small5";break;}
+          case w<1366&&w>=1280:{cls="small4";break;}
+          case w<1280&&w>=1024:{cls="small3";break;}
+          case w<1024:{cls="small2";break;}
+        }
+        for(var i=0;i<data.pLength;i++){
+          $pages.eq(i).find(".content").attr("class","content "+cls);
+        }
+
+        $productBtns.find(".content").attr("class","content "+cls);
+      }else{
+        switch(true){
+          case w>=1600:{cls="big_view";break;}
+          case w<1600&&w>=1440:{cls="mid_view";break;}
+          case w<1440:{cls="small_view";break;}
+        }
+        var ws=$wrap[0].className;
+        if(isIE6&&(ws.indexOf("big")!=-1||ws.indexOf("mid")!=-1||ws.indexOf("small")!=-1)&&ws.indexOf(cls)==-1)
+          location.reload();
+        wrap.className="wrap "+cls;
+      }  
+      aDD=$controls.eq(0).width()+parseInt($controls.eq(0).css("margin-right").slice(0,-2))*2;   
+    };
+    $(window).resize(resize);
+    resize();
+    
+    //轮播
+    var pageChange=function(idx){
+      if(data.isOnbtn)
+        return;
+      if(idx>=-1&&idx<data.pLength&&idx!=data.curP&&data.isCan){  
+        data.isCan=false; 
+        data.cNum++; 
+        clearInterval(cId); 
+        idx=idx==-1?data.pLength-1:idx;     
+        $controls.removeClass("cur").eq(idx).addClass("cur");
+        $pages.eq(data.curP).css({zIndex:0});
+        $icLine.css({left:aDD*idx});
+        // $footer.attr("class","footer f_color"+data.fColor[idx]);
+        if(idx==0)
+          data.dur=5000;
+        else
+          data.dur=3500;
+        $pages.eq(idx).addClass("show").css({opacity:0,zIndex:1}).animate({opacity:1},400,function(){
+          $pages.eq(data.curP).removeClass("show");
+          $(this).addClass("show");
+          data.isCan=true;
+          data.curP=idx; 
+          data.cNum--; 
+          if(data.cNum==0){
+            cId=setInterval(function(){
+              pageChange((data.curP+1)%data.pLength);
+            },data.dur);   
+          }  
+        });
+      }
+    }
+    pageChange(0)
+    $controls.on("mouseenter",function(){
+      data.isCan=true;
+      pageChange($controls.index(this));
+      $icLine.css({left:aDD*$controls.index(this)});
+      data.isOnbtn=true;
+    });
+    $controls.on("mouseleave",function(){
+      data.isOnbtn=false;
+    });
+
+    //底部操作
+    var isBottom=false;
+    var bAni;
+    var bottomHide=function(){
+      if(isBottom){
+        isBottom=false;
+        if(bAni)
+          clearTimeout(bAni),bAni=null;
+        $footer.removeClass("show");
+        $productBtns.removeClass("show");
+        $rptBg.removeClass("show");
+      }    
+    }
+    var bottomShow=function(){
+      if(!isBottom){
+        isBottom=true;
+        $footer.addClass("show");
+        $productBtns.addClass("show");
+        $rptBg.addClass("show");
+        if(bAni)
+          clearTimeout(bAni);
+        bAni=setTimeout(bottomHide,2000);
+      }
+    }
+    $footer.on("mouseenter",function(){
+      if(bAni)
+        clearTimeout(bAni),bAni=null;
+    });
+    $footer.on("mouseleave",function(){
+      if(bAni)
+        clearTimeout(bAni);
+      bAni=setTimeout(bottomHide,2000);
+    });
+    $(document).on("mousewheel DOMMouseScroll",function(event){
+      var sd=event.originalEvent.wheelDelta||event.originalEvent.detail*-1;
+      if(sd>0){
+        bottomHide();
+      }
+      else{
+        bottomShow();                         
+      }
+    });
+
+
+    //导航事件
+    $("#nav_more").on("mouseenter",function(){
+      $moreNav.addClass("show");
+    });
+    $moreNav.on("mouseleave",function(){
+      $moreNav.removeClass("show");
+      $hBdot.css({left:-9999,top:106});
+    })
+    $hNavli.on("mouseenter",function(){
+      $hBdot.css({left:18,top:106+$hNavli.index(this)*69});
+    });
+    $hNav.on("mouseleave",function(){
+      $hBdot.css({left:-9999});
+    });
+    $hSubnav.find("dt").on("mouseenter",function(){
+      $hBdot.css({left:18});
+      $hSdot.css({left:-9999});
+    });
+    $hSubDD.on("mouseenter",function(){
+      $hSdot.css({left:18,top:53+$hSubDD.index(this)*44});
+      $hBdot.css({left:-9999});
+    });
+    $hSubnav.on("mouseleave",function(){
+      $hSdot.css({left:-9999});
+    });    
+  })();
+</script>
+  -->
+ <div style="display:none">
+  <script type="text/javascript" src="http://act.vip.xunlei.com/common/pv/pv_min.js"></script>
+</div>
+<script type="text/javascript">window.habo_aid = 'www_xunlei_com';</script>
+ <script type="text/javascript" src="http://act.vip.xunlei.com/common/pv/pv_click_v2_mini.js"></script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="http://static.webgame.kanimg.com/com/DD_PNG_min.js"></script>
+<script type="text/javascript">
+	var links=document.getElementsByTagName("a");
+	for(var i=0,l=links.length;i<l;i++){
+		links[i].setAttribute("hideFocus",true);
+	}
+</script>
+<![endif]-->
+</body>
+</html>

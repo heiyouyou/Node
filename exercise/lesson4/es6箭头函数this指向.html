@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6箭头函数this指向</title>
+</head>
+<body>
+<script>
+
+//  箭头函数延续this的指向
+    var json = {
+        username:"heiyouyou",
+        age:22,
+        fn:function(){
+//            this指向json
+            console.log(`1${this.username}====${this.age}`);//1heiyouyou====22
+
+
+//            this指向window
+            function test(){
+                console.log(`2${this.username}====${this.age}`);//2undefined====undefined
+            };
+            test();
+
+
+//            使用bind()调整this指向json，注意：bind()只能调整this指向，不能执行函数
+//            function test3(){
+//                console.log(`3${this.username}====${this.age}`);//3heiyouyou====22
+//            };
+//            test.bind(this)();
+            //注意只有匿名函数才能够{}号后面直接.bind()
+            var test3 = function(){
+                console.log(`3${this.username}====${this.age}`);//3heiyouyou====22
+            }.bind(this);
+            test3();
+
+
+//            箭头函数延续了上一个函数作用域中的上下文对象this>>>>json
+            var test4 = ()=>{
+                console.log(`4${this.username}====${this.age}`);//4heiyouyou====22
+            };
+            test4();
+        }
+    };
+    json.fn();
+</script>
+</body>
+</html>

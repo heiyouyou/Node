@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品页面</title>
+</head>
+<body>
+    <h1>{{username}}</h1>
+    <a href="javascript:void(0);" id="getItems">开始购买商品</a>
+    <!--<a href="/cookie/logout">登出</a>-->
+    <a href="/session/logout">登出</a>
+    <script src='/js/jquery-1.11.2.min.js'></script>
+    <script>
+        $(function(){
+            $("#getItems").on('click',function(){
+                $.get('shop/params',function(data){
+                    // 判断是否登录过时不操作
+                    if(data=='logout'){
+                        // window.location.href='/cookie/login';
+                        window.location.href='/session/login';
+                    }else{
+                        console.log(data);
+                    };
+                });
+            });
+        });
+    </script> 
+</body>
+</html>

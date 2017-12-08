@@ -1,0 +1,11 @@
+{{!--可以使用{{>局部文件名}}来插入局部文件，局部文件是所有页面都可以使用的--}}
+{{>header}}
+<h1>{{commons.header.desc}}</h1>
+{{#section1 'tag1'}}
+<h1>我是一个demo4的自定义标签</h1>
+{{/section1}}
+<!--不能使用其他页面定义的自定义标签-->
+{{{_sections1.tag}}}
+{{{_sections1.tag1}}}
+{{>footer}}
+{{>scripts}}

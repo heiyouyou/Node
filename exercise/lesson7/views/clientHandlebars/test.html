@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>客户端（前端页面）使用handlebars处理字符串模版拼接的问题</title>
+</head>
+<body>
+    <div id="box"></div>
+    <script src="jquery-1.11.2.min.js"></script>
+    <script src="handlebars-v4.0.5.js"></script>
+    <!--用来定义handlebars的模板数据(handlebars的代码写在这里面)-->
+    <script id="dataTemplate" type="text/x-handlebars-template">
+        <!--当遍历的是json数组时，可以直接{{key}}拿到每一个对象的key对应的值-->
+        {{#each students}}
+            <!--@first可以获取第一条数据-->
+            {{#if @first}}
+            <p>第一个学生：{{name}}</p>
+            {{/if}}
+            {{#if salary}}
+            <p style="color:blue;">{{@index}}=={{name}}=={{age}}=={{sex}}==有工资收入</p>
+            <!--遍历数组中的对象，拿到对象的每一个key-->
+            {{#each .}}
+            <p style="color:red;">{{@key}}=={{.}}</p>
+            {{/each}}
+            {{else}}
+            <p style="color:green;">{{@index}}=={{name}}=={{age}}=={{sex}}==无工资收入</p>
+            {{#each .}}
+            <p style="color:red;">{{@key}}=={{.}}</p>
+            {{/each}}
+            {{/if}}
+            <!--@last可以获取最后一条数据-->
+            {{#if @last}}
+            <p>最后一个学生：{{name}}</p>
+            {{/if}}
+            {{else}}
+            <h1>没有学生可以查看...</h1>
+        {{/each}}
+        {{#list people}}{{firstName}} {{lastName}}{{/list}}
+        <div class="post">
+            <h1>By {{fullName author}}</h1>
+            <div class="body">{{body}}</div>
+            <h1>Comments</h1>
+            {{#each comments}}
+            <h2>By {{fullName author}}</h2>
+            <div class="body">{{body}}</div>
+            {{/each}}
+        </div>
+        <div class="line">
+            {{text text1}}
+        </div>
+    </script>
+    <script>
+        $(function(){
+            //块级表达式的注册使用
+            Handlebars.registerHelper('list',function(items,options){
+                var out = "<ul>";
+                for(var i=0, l=items.length; i<l; i++) {
+                    out = out + "<li>" + options.fn(items[i]) + "</li>";
+                }
+                return out + "</ul>";
+            });
+            Handlebars.registerHelper('fullName', function(person) {
+                return person.firstName + " " + person.lastName;
+            });
+            Handlebars.registerHelper('text',function(data){
+               return data.num+"=="+data.desc;
+            });
+
+            //获取handlebars的源码模板数据
+            var source = $("#dataTemplate").html();
+            //对模板数据进行编译，返回的是一个模板函数
+            var template = Handlebars.compile(source);
+            console.log(template);
+            //定义一个上下文对象数据源，或者可以通过ajax请求过来的数据源
+            var context = {
+                layout:'pc',
+                link:'https://www.mengkedu.com',
+                lujing:400,
+                address:'<span style="color:red;font-weight:600;">广东深圳</span>',
+                teachers:['keke','kery','hehe'],
+                students:[{name:'小明',age:22,sex:'男',salary:false},{name:'小神',age:23,sex:'男',salary:true},{name:'小红',age:21,sex:'女',salary:false}],
+                data:{
+                    name:'handlebars的学习',
+                    time:'2017/01/01'
+                },
+                author: {firstName: "Alan", lastName: "Johnson"},
+                body: "I Love Handlebars",
+                comments: [{
+                    author: {firstName: "Yehuda", lastName: "Katz"},
+                    body: "Me too!"
+                }],
+                people: [
+                    {firstName: "Yehuda", lastName: "Katz"},
+                    {firstName: "Carl", lastName: "Lerche"},
+                    {firstName: "Alan", lastName: "Johnson"}
+                ],
+                text1:{
+                    num:22,
+                    desc:'这是一个helper自定义标签..'
+                }
+            }
+            //将数据源以传参的形式获取模板html字符串
+            var html = template(context);
+            $("#box").append(html);
+        });
+    </script>
+</body>
+</html>

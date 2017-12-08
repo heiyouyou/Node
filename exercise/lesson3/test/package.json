@@ -1,0 +1,14 @@
+{
+  "name": "paichong",
+  "version": "1.0.0",
+  "description": "this is a reptile programming",
+  "main": "pachongimg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http、reptile、cheerio"
+  ],
+  "author": "wzy",
+  "license": "ISC"
+}

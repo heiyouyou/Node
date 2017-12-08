@@ -1,0 +1,28 @@
+// 将数据缓存在客户端浏览器上,cookie失效的时间单位是：毫秒,maxAge设置cookie缓存的最大过时时间
+// res.cookie('user',JSON.stringify(params),{maxAge:6000});
+// 默认不设置maxAge，就是session会话级别的存储，关闭浏览器即清除数据，注意要以字符串来存储
+res.cookie('user',JSON.stringify(params));
+
+先安装cookie-session：npm install --save-dev cookie-session
+// cookie-session中间件的载入
+var cookieSession = require('cookie-session');
+
+// session中间件的注册
+/*
+    name：表示cookie的name，默认cookie的name是：session.sig。
+    secret：用来对session数据进行加密的字符串(随意指定).这个属性值为必须指定的属性。
+    maxAge：cookie过期时间，毫秒。
+*/
+app.use(cookieSession({
+  name:'userdata',
+  secret:'1234567890ABCEDFJHIJKLQWERTYZ',
+  maxAge:1000*60
+}));
+
+// 登出操作，清除session，重定向到登录页面
+router.get('/logout', function(req, res, next) {
+    // req.session.user = {};//重新初始化,开发不要这样子做，不方便判断
+    delete req.session.user;//内存全部回收 
+    // 重定向页面
+    res.redirect('/session/login');
+});

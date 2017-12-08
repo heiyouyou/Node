@@ -1,0 +1,86 @@
+//
+   Created by Administrator on 2017/1/8.
+
+extends layout
+
+block content
+    //多行文本使用 . 号进行连接
+    p.
+     这是一个
+     测试页面...
+
+    //注意：符号 - 开头在 jade中属于服务端执行的代码
+    - console.log('hello world');//这段代码在服务端执行
+    - var s = 'hello world'; //在服务端空间中定义变量
+
+    //模板数据渲染的三种方式：
+    //注意：=和!=左边不能有空格，=和!=效果一样
+    p= s
+    p!=s
+    //注意：#{s}左边必须有空格
+    p #{s}
+
+
+    //if语句判断的三种方式：
+    //方式一：
+    - var user = {desc:'我喜欢打篮球'};
+    - if(user.desc)
+      h2 描述
+      p.desc= user.desc
+    - else
+      h1 描述
+      p.desc 用户无描述
+
+    //方式二：
+    //#user表示id为user的div元素
+    #user
+        if user.desc
+            h2 描述
+            p.desc= user.desc
+        else
+            h1 描述
+            p.desc 用户无描述
+
+    //方式三：
+    - var user1 = {name:'heiyouyou',isVIP:false}
+        //unless相当于取反执行代码，注意：这个 unless 是 jade 提供的关键字，不是运行的 js 代码
+        unless user1.isVIP
+            p.desc亲爱的#{user1.name}您并不是VIP
+
+
+
+    //循环语句
+    //方式一：
+    - var arr = [1,2,3];
+    ul
+        - for(var i=0;i<arr.length;i++){
+            li hello #{arr[i]}
+        - }
+
+    //方式二:
+    - var arr1 = ['西瓜', '苹果', '梨子'];
+    ul
+        each val,index in arr1
+            li=index +'：'+val
+    //同样适用于json对象
+    - var json = {1:'苹果',2:'梨子',3:'乔布斯'};
+    ul
+        each val,index in json
+            li=index + '：' + val
+
+
+    //case语句，类似 switch 里面的结果，不过这里的 case 不支持case穿透，如果 case 穿透的话会报错。
+    - var friends = 10;
+    case friends
+        when 0
+            p 好友数为0
+        when 5
+            p 好友数为5
+        default
+            p 好友数为#{friends}
+    //简略写法：
+    - var friends = 5;
+    case friends
+        when 0: p 好友数为0
+        when 5: p 好友数为5
+        default: p 好友数为#{friends}

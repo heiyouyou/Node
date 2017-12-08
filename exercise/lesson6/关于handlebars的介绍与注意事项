@@ -1,0 +1,111 @@
+1、defaultLayout默认布局: 一定要放置在views里面新建一个layouts的文件夹，当然也可以通过layoutsDir
+进行修改默认通用布局文件的文件夹名字。
+
+2、局部文件，必须要定义在views/partials中，当然你也可以通过partialsDir进行修改
+局部文件是所有页面都也可以使用的。
+
+3、关于注释：
+{{! 注释的内容}}或者{{!--注释的内容--}}===>不会编译静态源码中
+<!--html注释-->===会编译静态源码中
+
+4、
+自定义标签，当前页面定义的标签只能在当前页面使用，其他页面不可以使用
+语法格式：
+{{#自定义的方法名 标签名}}
+内容...
+{{/自定义的方法名}}
+调用：
+{{自定义标签对象.标签名}}
+
+5、前端（客户端）页面使用Handlebars模版引擎的方法
+第一：先引入文件jquery-1.11.2.min.js和handlebars-v4.0.5.js两个js文件，顺序随意
+
+第二：在<script type="text/x-handlebars-template"></script>写入handlebars的数据模板，如下：
+<script id="dataTemplate" type="text/x-handlebars-template">
+        <!--当遍历的是json数组时，可以直接{{key}}拿到每一个对象的key对应的值-->
+        {{#each students}}
+            <!--@first可以获取第一条数据-->
+            {{#if @first}}
+            <p>第一个学生：{{name}}</p>
+            {{/if}}
+            {{#if salary}}
+            <p style="color:blue;">{{@index}}=={{name}}=={{age}}=={{sex}}==有工资收入</p>
+            <!--遍历数组中的对象，拿到对象的每一个key-->
+            {{#each .}}
+            <p style="color:red;">{{@key}}=={{.}}</p>
+            {{/each}}
+            {{else}}
+            <p style="color:green;">{{@index}}=={{name}}=={{age}}=={{sex}}==无工资收入</p>
+            {{#each .}}
+            <p style="color:red;">{{@key}}=={{.}}</p>
+            {{/each}}
+            {{/if}}
+            <!--@last可以获取最后一条数据-->
+            {{#if @last}}
+            <p>最后一个学生：{{name}}</p>
+            {{/if}}
+            {{else}}
+            <h1>没有学生可以查看...</h1>
+        {{/each}}
+    </script>
+
+第三：通过Handlebars.compile()编译模板数据，如下：
+//获取handlebars的源码模板数据
+var source = $("#dataTemplate").html();
+//对模板数据进行编译，返回的是一个模板函数
+var template = Handlebars.compile(source);
+
+第四：通过第三部返回的模板函数template()传入指定上下文数据源，获取字符串html模板，如下：
+//定义一个上下文对象数据源，或者可以通过ajax请求过来的数据源
+var context = {
+    layout:'pc',
+    link:'https://www.mengkedu.com',
+    lujing:400,
+    address:'<span style="color:red;font-weight:600;">广东深圳</span>',
+    teachers:['keke','kery','hehe'],
+    students:[{name:'小明',age:22,sex:'男',salary:false},{name:'小神',age:23,sex:'男',salary:true},{name:'小红',age:21,sex:'女',salary:false}],
+    data:{
+        name:'handlebars的学习',
+        time:'2017/01/01'
+    }
+}
+//将数据源以传参的形式获取模板html字符串
+var html = template(context);
+
+6、前端页面可以通过Handlebars.registerHelper()注册自定义标签与块级表达式，如下：
+//块级表达式的注册使用
+Handlebars.registerHelper('list',function(items,options){
+    var out = "<ul>";
+    for(var i=0, l=items.length; i<l; i++) {
+        out = out + "<li>" + options.fn(items[i]) + "</li>";
+    }
+    return out + "</ul>";
+});
+Handlebars.registerHelper('fullName', function(person) {
+    return person.firstName + " " + person.lastName;
+});
+handlebars的模板数据代码：
+{{#list people}}{{firstName}} {{lastName}}{{/list}}
+<div class="post">
+    <h1>By {{fullName author}}</h1>
+    <div class="body">{{body}}</div>
+    <h1>Comments</h1>
+    {{#each comments}}
+    <h2>By {{fullName author}}</h2>
+    <div class="body">{{body}}</div>
+    {{/each}}
+</div>
+//上下文对象数据源
+var context = {
+    author: {firstName: "Alan", lastName: "Johnson"},
+    body: "I Love Handlebars",
+    comments: [{
+        author: {firstName: "Yehuda", lastName: "Katz"},
+        body: "Me too!"
+    }],
+    people: [
+        {firstName: "Yehuda", lastName: "Katz"},
+        {firstName: "Carl", lastName: "Lerche"},
+        {firstName: "Alan", lastName: "Johnson"}
+    ]
+}

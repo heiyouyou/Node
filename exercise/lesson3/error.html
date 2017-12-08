@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容页面</title>
+</head>
+<body>
+    <h1>这是一个错误页面</h1>
+    <p id="backhompage">4秒后回到首页...</p>
+</body>
+<script>
+    window.onload = function(){
+        var back = document.getElementById("backhompage");
+        var backtime = 4;
+        var backTimer = setInterval(function(){
+            backtime--;
+            back.innerHTML = backtime+"秒后回到首页...";
+            if(backtime==0){
+                clearInterval(backTimer);
+                window.location.href = "./index";
+            }
+        },1000);
+    }
+</script>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6箭头函数</title>
+</head>
+<body>
+<script>
+    //常规定义函数
+    function test(a,b){
+        return a+b;
+    }
+    var result = test(2,3);
+    console.log(result);//5
+    //声明形式定义函数
+    var test1 = function(a,b){
+        return a+b;
+    };
+    var result1 = test1(2,3);
+    console.log(result1);//5
+
+
+    //箭头函数定义函数，属于匿名函数的一种定义形式
+//    无参数格式
+    var arrow = ()=>{
+      alert(2);
+    };
+    arrow();
+//    当{}括号只有行代码时，可以省略{}括号，而且省略括号这种形式，会默认将表达式的值返回，加了会报错
+    var arrow1 = ()=>alert(3);
+    arrow1();
+
+
+//    单个参数格式
+//    var arrow2 = (a)=>{
+//        return a+a;
+//    };
+//    var arrow2 = (a)=>a+a;
+    var arrow2 = (a)=>{
+        return a+a;//注意必须加return关键词才能返回值，省略{}的格式不需要
+    };
+    var r = arrow2(2);
+    console.log(r);//4
+
+
+//多个参数格式
+//    var test2 = (a,b)=>a+b;
+    var test2 = (a,b)=>{
+        return a+b;
+    };
+    var result2 = test2(3,3);
+    console.log(result2);//6
+
+    var strformat = (name,age)=>{
+        console.log(`我是${name},年龄为${age}岁`);
+    };
+    strformat("wzy",22);//我是wzy,年龄为22岁
+
+
+</script>
+</body>
+</html>

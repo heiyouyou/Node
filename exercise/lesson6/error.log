@@ -1,0 +1,1608 @@
+undefined
+No default engine was specified and no extension was provided.
+Error: No default engine was specified and no extension was provided.
+    at new View (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\view.js:62:11)
+    at EventEmitter.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\response.js:960:7)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\routes\index.js:6:7
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+undefined
+No default engine was specified and no extension was provided.
+Error: No default engine was specified and no extension was provided.
+    at new View (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\view.js:62:11)
+    at EventEmitter.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\application.js:569:12)
+    at ServerResponse.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\response.js:960:7)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\routes\index.js:6:7
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+undefined
+ENOENT: no such file or directory, open 'F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views\layouts\layouts.html'
+Error: ENOENT: no such file or directory, open 'F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views\layouts\layouts.html'
+    at Error (native)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:37:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:42:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:42:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:42:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:40:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:41:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:41:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+undefined
+req.query is not a function
+TypeError: req.query is not a function
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\routes\content.js:43:21
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:277:22
+    at param (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:349:14)
+    at param (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:410:3)
+undefined
+Failed to lookup view "content/login" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+Error: Failed to lookup view "content/login" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+    at EventEmitter.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\response.js:960:7)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\routes\content.js:54:9
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+undefined
+Failed to lookup view "content/login" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+Error: Failed to lookup view "content/login" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+    at EventEmitter.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\response.js:960:7)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\routes\content.js:54:9
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+415
+unsupported charset "UTF-8'"
+UnsupportedMediaTypeError: unsupported charset "UTF-8'"
+    at urlencodedParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\urlencoded.js:108:12)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+415
+unsupported charset "UTF-8'"
+UnsupportedMediaTypeError: unsupported charset "UTF-8'"
+    at urlencodedParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\urlencoded.js:108:12)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+415
+unsupported charset "UTF-8'"
+UnsupportedMediaTypeError: unsupported charset "UTF-8'"
+    at urlencodedParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\urlencoded.js:108:12)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+415
+unsupported charset "UTF-8'"
+UnsupportedMediaTypeError: unsupported charset "UTF-8'"
+    at urlencodedParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\urlencoded.js:108:12)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+415
+unsupported charset "UTF-8'"
+UnsupportedMediaTypeError: unsupported charset "UTF-8'"
+    at urlencodedParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\urlencoded.js:108:12)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+415
+unsupported charset "UTF-8'"
+UnsupportedMediaTypeError: unsupported charset "UTF-8'"
+    at urlencodedParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\urlencoded.js:108:12)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+415
+unsupported charset "UTF-8'"
+UnsupportedMediaTypeError: unsupported charset "UTF-8'"
+    at urlencodedParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\urlencoded.js:108:12)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\body-parser\lib\types\json.js:112:7)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+undefined
+Failed to lookup view "/" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+Error: Failed to lookup view "/" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+    at EventEmitter.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\response.js:960:7)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\routes\content.js:139:9
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+undefined
+Failed to lookup view "/" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+Error: Failed to lookup view "/" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+    at EventEmitter.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\response.js:960:7)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\routes\content.js:139:9
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+undefined
+Failed to lookup view "/" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+Error: Failed to lookup view "/" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+    at EventEmitter.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\response.js:960:7)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\routes\content.js:139:9
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+undefined
+Failed to lookup view "/index" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+Error: Failed to lookup view "/index" in views directory "F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\views"
+    at EventEmitter.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\application.js:579:17)
+    at ServerResponse.render (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\response.js:960:7)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\routes\content.js:139:9
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:49:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:53:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+undefined
+Parse error on line 23:
+...rs的if语句：<h1>{{#if 2>1}}    <h2>大于</h
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+Error: Parse error on line 23:
+...rs的if语句：<h1>{{#if 2>1}}    <h2>大于</h
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 23:
+...f语句：<h1><!--{{#if 布尔类型的值(默认不支持表达式)}}--
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+Error: Parse error on line 23:
+...f语句：<h1><!--{{#if 布尔类型的值(默认不支持表达式)}}--
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 23:
+...f语句：<h1><!--{{#if 布尔类型的值(默认不支持表达式)}}--
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+Error: Parse error on line 23:
+...f语句：<h1><!--{{#if 布尔类型的值(默认不支持表达式)}}--
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 23:
+...f语句：<h1><!--{{#if 布尔类型的值(默认不支持表达式)}}--
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+Error: Parse error on line 23:
+...f语句：<h1><!--{{#if 布尔类型的值(默认不支持表达式)}}--
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 39:
+...{{else}}<!--{{else}}可以嵌套在循环语句中，进行判断逻辑-
+----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+Error: Parse error on line 39:
+...{{else}}<!--{{else}}可以嵌套在循环语句中，进行判断逻辑-
+----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 40:
+...句中，进行判断逻辑-->{{else}}    <h1>没有学生可以查看
+----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+Error: Parse error on line 40:
+...句中，进行判断逻辑-->{{else}}    <h1>没有学生可以查看
+----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Lexical error on line 39. Unrecognized text.
+...生可以查看...</h1>{{!--{{else}}可以嵌套在循环语句中，进
+----------------------^
+Error: Lexical error on line 39. Unrecognized text.
+...生可以查看...</h1>{{!--{{else}}可以嵌套在循环语句中，进
+----------------------^
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:227:28)
+    at Object.lexer.next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:363:25)
+    at Object.lex (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:368:22)
+    at Object.lex (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:372:25)
+    at lex (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:129:28)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:142:26)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+undefined
+Lexical error on line 39. Unrecognized text.
+...生可以查看...</h1>{{!--{{else}}可以嵌套在循环语句中，进
+----------------------^
+Error: Lexical error on line 39. Unrecognized text.
+...生可以查看...</h1>{{!--{{else}}可以嵌套在循环语句中，进
+----------------------^
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:227:28)
+    at Object.lexer.next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:363:25)
+    at Object.lex (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:368:22)
+    at Object.lex (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:372:25)
+    at lex (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:129:28)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:142:26)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+undefined
+Parse error on line 46:
+...   <p>{{@index}}=={{.@key}}=={{name}}=={
+-----------------------^
+Expecting 'ID', 'DATA', got 'SEP'
+Error: Parse error on line 46:
+...   <p>{{@index}}=={{.@key}}=={{name}}=={
+-----------------------^
+Expecting 'ID', 'DATA', got 'SEP'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 73:
+...each .}}        {{.['name']}}===地址：{{a
+----------------------^
+Expecting 'ID', 'DATA', got 'SEP'
+Error: Parse error on line 73:
+...each .}}        {{.['name']}}===地址：{{a
+----------------------^
+Expecting 'ID', 'DATA', got 'SEP'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 73:
+...h .}}        {{#if} @first}}        
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+Error: Parse error on line 73:
+...h .}}        {{#if} @first}}        
+----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', 'SEP', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 70:
+...-不同上下文中的数据获取，注意：一对{{}}就表示一个上下文作用域，所以要想
+-----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+Error: Parse error on line 70:
+...-不同上下文中的数据获取，注意：一对{{}}就表示一个上下文作用域，所以要想
+-----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 70:
+...-不同上下文中的数据获取，注意：一对{{}}就表示一个上下文作用域，所以要想
+-----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+Error: Parse error on line 70:
+...-不同上下文中的数据获取，注意：一对{{}}就表示一个上下文作用域，所以要想
+-----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 77:
+...t}}            {{~}}            地址：{
+----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+Error: Parse error on line 77:
+...t}}            {{~}}            地址：{
+----------------------^
+Expecting 'ID', 'DATA', got 'CLOSE'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 1:
+<!--{{> }}使用-->{{>header}}
+--------^
+Expecting 'STRING', 'INTEGER', 'ID', got 'CLOSE'
+Error: Parse error on line 1:
+<!--{{> }}使用-->{{>header}}
+--------^
+Expecting 'STRING', 'INTEGER', 'ID', got 'CLOSE'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Cannot set property 'header' of undefined
+TypeError: Cannot set property 'header' of undefined
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:47:29
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:41:3
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+undefined
+Cannot set property 'header' of undefined
+TypeError: Cannot set property 'header' of undefined
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:47:29
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:41:3
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+undefined
+Cannot set property 'header' of undefined
+TypeError: Cannot set property 'header' of undefined
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:47:29
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:41:3
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+undefined
+Cannot set property 'header' of undefined
+TypeError: Cannot set property 'header' of undefined
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:47:29
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:41:3
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+undefined
+Cannot set property 'header' of undefined
+TypeError: Cannot set property 'header' of undefined
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:47:29
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:41:3
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:67:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+undefined
+Parse error on line 2:
+...rmatDate time '你好呀' {name:'hei'}}</h1>
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+Error: Parse error on line 2:
+...rmatDate time '你好呀' {name:'hei'}}</h1>
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 2:
+...rmatDate time '你好呀' {name:'hei'}}}</h1>
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+Error: Parse error on line 2:
+...rmatDate time '你好呀' {name:'hei'}}}</h1>
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 2:
+... time '你好呀' '{name:'hei'}'}}</h1><h1>{
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+Error: Parse error on line 2:
+... time '你好呀' '{name:'hei'}'}}</h1><h1>{
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 2:
+...rmatDate time '你好呀' {"name":"hei"}}}</h1
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+Error: Parse error on line 2:
+...rmatDate time '你好呀' {"name":"hei"}}}</h1
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 3:
+...tDate time '你好呀' 22 {"name":"hei"}}}</h1
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+Error: Parse error on line 3:
+...tDate time '你好呀' 22 {"name":"hei"}}}</h1
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'INVALID'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+undefined
+Parse error on line 3:
+...tDate time '你好呀' 22 {{"name":"hei"}}}}</
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'OPEN'
+Error: Parse error on line 3:
+...tDate time '你好呀' 22 {{"name":"hei"}}}}</
+-----------------------^
+Expecting 'CLOSE', 'CLOSE_UNESCAPED', 'STRING', 'INTEGER', 'BOOLEAN', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'DATA', got 'OPEN'
+    at Object.parseError (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:107:11)
+    at Object.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:159:22)
+    at HandlebarsEnvironment.parse (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:12:17)
+    at compileInput (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:454:19)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:463:18
+    at ExpressHandlebars.extend._renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:339:22)
+    at ExpressHandlebars.renderTemplate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\lib\express-handlebars.js:196:18)
+    at fn (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:582:34)
+    at Immediate._onImmediate (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express3-handlebars\node_modules\async\lib\async.js:498:34)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:71:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:75:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:75:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:75:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)
+404
+Not Found
+Error: Not Found
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\app.js:76:13
+    at Layer.handle [as handle_request] (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:312:13)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:330:12)
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:271:10)
+    at F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:618:15
+    at next (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:176:3)
+    at router (F:\NodeJS\NodeJS系统课程\NodeJS练习\lesson6\node_modules\express\lib\router\index.js:46:12)

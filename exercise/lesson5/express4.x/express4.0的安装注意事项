@@ -1,0 +1,22 @@
+1、全局安装一次使用命令行：npm install -g express-generator
+   本地安装使用命令行：npm link express 或者npm install --save-dev express-generator
+
+2、安装完express4.x版本后，构建项目与express3.x版本一样
+
+3、启动项目不再是使用node app，而是npm start
+
+4、模板引擎修改成：handlebars模板引擎
+先安装：npm install express3-handlebars --save-dev，也可以安装其他版本：express4-handlebars
+
+app.js文件增加代码如下：
+//引入handlebars的模板对象
+var handlebars = require("express3-handlebars").create();
+app.engine("handlebars",handlebars.engine);
+app.set('view engine', 'handlebars');
+
+更改handlebars模板引擎相关配置：
+var handlebars = require("express3-handlebars").create({
+  defaultLayout:"layout",//设置默认布局的文件
+  extname:".html"//更改handlebars模板的扩展名
+});
+

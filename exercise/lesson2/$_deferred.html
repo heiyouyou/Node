@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>jQuery中的$.deferred使用</title>
+</head>
+<body>
+<script src="jquery.min.js"></script>
+<script>
+   function show1(time){
+     var de = $.Deferred();
+     setTimeout(function(){
+      console.log(time+'秒后执行');
+      de.resolve(time);//代码成功执行，就执行该函数
+//      de.reject(time);//代码发生异常，就会执行该函数
+     },time*1000);
+    return de;
+   };
+   function show2(time){
+     var de = $.Deferred();
+     setTimeout(function(){
+      console.log(time+'秒后执行');
+        de.resolve(time);
+//      de.reject(time);
+     },time*1000);
+    return de;
+   };
+   function show3(time){
+     var de = $.Deferred();
+     setTimeout(function(){
+      console.log(time+'秒后执行');
+//        de.resolve(time);
+          var json = {username:'黑黝黝'};
+          de.reject.call(json,time);
+     },time*1000);
+    return de;
+   };
+//   $.when(show1(1),show2(2),show3(3)).then(function(time){
+//    console.log(time+"全部执行成功");
+//   },function(time){
+//    console.log(time+'有一个发生异常');
+//   })
+
+   $.when(show1(1),show2(1),show3(2)).done(function(time){
+    console.log(time+"全部执行成功");
+   }).fail(function(time){
+    console.log(this);
+    console.log(time+'有一个发生异常');
+   })
+</script>
+</body>
+</html>

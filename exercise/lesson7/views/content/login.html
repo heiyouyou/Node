@@ -1,0 +1,25 @@
+<form id="form" method="post" action="params">
+    <p>用户名：<input type="text" name="username"></p>
+    <p>密码：<input type="password" name="password"></p>
+    <p><input type="submit" value="登录"></p>
+    <p><input type="button" name="button" value="ajax登录"></p>
+</form>
+<script src="/javascripts/jquery-1.11.2.min.js"></script>
+<script>
+    window.onload = function(){
+        var btn = form.button;
+        btn.onclick = function(){
+            var username = form.username.value;
+            var password = form.password.value;
+            console.log(username+"=="+password);
+            $.ajax({
+                url:'params',
+                type:'post',
+                data:{username:username,password:password},
+                success:function(data){
+                    console.log(data.msg+"=="+data.code);
+                }
+            });
+        }
+    }
+</script>
